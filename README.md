@@ -260,7 +260,10 @@ Use your own GitHub fork for a reproducible installation.
 Clone your fork's 8C58 branch:
 
 ```bash
-git clone --branch omen-transcend-14-8c58 <YOUR_FORK_URL> 5080-Unlock_Linux
+git clone --branch omen-transcend-14-8c58 \
+    https://github.com/lefarmer01600/5080-Unlock_Linux.git \
+    5080-Unlock_Linux
+
 cd ~/5080-Unlock_Linux
 ```
 
